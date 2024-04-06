@@ -5,7 +5,7 @@ export async function GET() {
 	return new Response(
 		JSON.stringify(data), {
 			headers: {
-				"Access-Control-Allow-Origin": "https://golden-law.netlify.com"
+				"Access-Control-Allow-Origin": "https://golden-law.netlify.app"
 			}
 		})
 }
